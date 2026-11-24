@@ -1,6 +1,8 @@
 # Final Report - KBA RAG Course Advisor
 
-*Authors: (fill in names / IDs).  Data notice: the knowledge base is fictional sample data, labelled as such in every file.*
+**Author:** Anas Ibrahim Mahmoud  |  **ID:** 2403245109
+
+*Data notice: the knowledge base is fictional sample data, labelled as such in every file.*
 
 ## 1. Approach
 The system is a **RAG pipeline coupled to a deterministic rule engine**, so the LLM can never invent eligibility:

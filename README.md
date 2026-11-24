@@ -77,5 +77,6 @@ For neural embeddings: `pip install sentence-transformers`, then `Advisor.from_k
 Add a Markdown file under `kb/courses/` (copy any existing one: `key: value` header, then `## Overview`, `## Description`, ...).
 The rule engine and retriever pick it up automatically; `tests/test_knowledge_base.py` validates references and cycles.
 
-## Authors
-Replace with team member names / IDs before submission. (The brief states both "individual" and "team size: 2"; see `docs/assignment-analysis.md`.)
+## Author
+Anas Ibrahim Mahmoud (ID 2403245109).
+(The brief states both "individual" and "team size: 2"; see `docs/assignment-analysis.md`. Add a second team member here if applicable.)
