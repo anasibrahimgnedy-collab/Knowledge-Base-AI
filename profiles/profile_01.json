@@ -1,0 +1,18 @@
+{
+  "name": "Amira Hassan",
+  "level": 1,
+  "term": "Spring",
+  "passed_courses": [],
+  "gpa": null,
+  "skills": [
+    "basic computer use"
+  ],
+  "interests": [
+    "programming",
+    "problem solving"
+  ],
+  "goals": "become a software developer",
+  "preferred_credits": 15,
+  "requested_courses": [],
+  "description": "New level-1 student starting in Spring with no history: availability (Fall-only CS103) and prerequisite chain rules apply."
+}

@@ -1,0 +1,477 @@
+{
+  "student": "Nour Fathy",
+  "label": "balanced",
+  "max_credits": 21,
+  "target_credits": 21,
+  "total_credits": 19,
+  "selected": [
+    "CS405",
+    "CS403",
+    "CS407",
+    "CS401",
+    "CS306",
+    "CS304"
+  ],
+  "warnings": [],
+  "decisions": {
+    "CS101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS102": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS102 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS103": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS103 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS201": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS201 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS202": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS202 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS203": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS203 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS204": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS204 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS205": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS205 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS206": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS206 is offered only in Fall, not in Spring"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS206.md \u00a7 Overview",
+          "score": 0.609,
+          "text": "CS206 Computer Graphics is a 3-credit-hour elective course at academic level 2. It is offered in the Fall semester only. Registration requirements - prerequisites: CS201."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        }
+      ]
+    },
+    "CS301": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS301 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS302": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS302 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS303": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS303 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS303L": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS303L has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS304": {
+      "verdict": "RECOMMENDED",
+      "score": 0.071,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: CS201, MATH201, MATH202 passed.",
+        "Offered in Spring; level 3 is within student level 4.",
+        "Matches your interests/goals: python."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS304.md \u00a7 Overview",
+          "score": 0.544,
+          "text": "CS304 Machine Learning is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS201, MATH201, MATH202."
+        },
+        {
+          "source": "kb/courses/CS304.md \u00a7 Description",
+          "score": 0.03,
+          "text": "Introduces supervised and unsupervised learning: linear and logistic regression, decision trees, clustering, neural networks, model evaluation and overfitting, using Python libraries."
+        }
+      ]
+    },
+    "CS305": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS305 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS306": {
+      "verdict": "RECOMMENDED",
+      "score": 0.097,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: CS204 passed.",
+        "Offered in Spring; level 3 is within student level 4."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS306.md \u00a7 Overview",
+          "score": 0.624,
+          "text": "CS306 Mobile Application Development is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS204."
+        },
+        {
+          "source": "kb/courses/CS306.md \u00a7 Description",
+          "score": 0.04,
+          "text": "Designs and builds cross-platform mobile applications with attention to user interface, device sensors and cloud back ends."
+        }
+      ]
+    },
+    "CS307": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS307 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS401": {
+      "verdict": "RECOMMENDED",
+      "score": 0.6,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: CS205, CS301 passed.",
+        "Offered in Spring; level 4 is within student level 4.",
+        "Core degree requirement."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS401.md \u00a7 Overview",
+          "score": 0.609,
+          "text": "CS401 Capstone Project I is a 4-credit-hour core course at academic level 4. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS205, CS301; at least 60 passed credit hours; cumulative GPA of at least 2.0."
+        }
+      ]
+    },
+    "CS402": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS304"
+        }
+      ],
+      "reasons": [
+        "Take CS304 first (eligible now) to work towards CS402."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS402.md \u00a7 Overview",
+          "score": 0.582,
+          "text": "CS402 Deep Learning is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS304; cumulative GPA of at least 2.5."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS403": {
+      "verdict": "RECOMMENDED",
+      "score": 1.15,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: CS302, CS303 passed.",
+        "Offered in Spring; level 4 is within student level 4.",
+        "Matches your interests/goals: distributed systems, cloud computing."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS403.md \u00a7 Overview",
+          "score": 0.576,
+          "text": "CS403 Distributed Systems is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS302, CS303."
+        },
+        {
+          "source": "kb/courses/CS403.md \u00a7 Registration notes",
+          "score": 0.416,
+          "text": "Standard registration rules apply; see the registration policies."
+        }
+      ]
+    },
+    "CS404": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS404 is offered only in Fall, not in Spring"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS404.md \u00a7 Overview",
+          "score": 0.597,
+          "text": "CS404 Cloud Computing is a 3-credit-hour elective course at academic level 4. It is offered in the Fall semester only. Registration requirements - prerequisites: CS303."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        }
+      ]
+    },
+    "CS405": {
+      "verdict": "RECOMMENDED",
+      "score": 2.424,
+      "violations": [],
+      "reasons": [
+        "Requested by the student and passes every registration rule.",
+        "Prerequisites satisfied: CS305 passed.",
+        "Offered in Spring; level 4 is within student level 4.",
+        "Matches your interests/goals: cybersecurity."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS405.md \u00a7 Overview",
+          "score": 0.569,
+          "text": "CS405 Advanced Cybersecurity is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS305."
+        },
+        {
+          "source": "kb/courses/CS405.md \u00a7 Registration notes",
+          "score": 0.114,
+          "text": "Standard registration rules apply; see the registration policies."
+        }
+      ]
+    },
+    "CS406": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS304"
+        }
+      ],
+      "reasons": [
+        "Take CS304 first (eligible now) to work towards CS406."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS406.md \u00a7 Overview",
+          "score": 0.666,
+          "text": "CS406 Natural Language Processing is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS304."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS407": {
+      "verdict": "RECOMMENDED",
+      "score": 0.716,
+      "violations": [],
+      "reasons": [
+        "No prerequisites required.",
+        "Offered in Spring; level 4 is within student level 4.",
+        "Core degree requirement.",
+        "Matches your interests/goals: cloud computing."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS407.md \u00a7 Overview",
+          "score": 0.7,
+          "text": "CS407 Professional Ethics and Law in Computing is a 3-credit-hour core course at academic level 4. It is offered in every semester (Fall and Spring). Registration requirements - at least 30 passed credit hours."
+        }
+      ]
+    },
+    "ENG101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "ENG101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "HUM101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "HUM101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "MATH101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "MATH101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "MATH102": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "MATH102 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "MATH201": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "MATH201 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "MATH202": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "MATH202 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    }
+  }
+}

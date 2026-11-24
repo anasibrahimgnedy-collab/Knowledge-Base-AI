@@ -1,0 +1,961 @@
+{
+  "student": "Amira Hassan",
+  "label": "balanced",
+  "max_credits": 18,
+  "target_credits": 15,
+  "total_credits": 13,
+  "selected": [
+    "CS101",
+    "MATH101",
+    "ENG101",
+    "HUM101"
+  ],
+  "warnings": [],
+  "decisions": {
+    "CS101": {
+      "verdict": "RECOMMENDED",
+      "score": 1.6,
+      "violations": [],
+      "reasons": [
+        "No prerequisites required.",
+        "Offered in Spring; level 1 is within student level 1.",
+        "Core degree requirement.",
+        "Matches your interests/goals: programming, problem solving."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS101.md \u00a7 Overview",
+          "score": 0.594,
+          "text": "CS101 Introduction to Programming is a 4-credit-hour core course at academic level 1. It is offered in every semester (Fall and Spring). There are no prerequisites or other registration requirements."
+        },
+        {
+          "source": "kb/courses/CS101.md \u00a7 Registration notes",
+          "score": 0.42,
+          "text": "Standard registration rules apply; see the registration policies."
+        }
+      ]
+    },
+    "CS102": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS101"
+        }
+      ],
+      "reasons": [
+        "Take CS101 first (eligible now) to work towards CS102."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS102.md \u00a7 Overview",
+          "score": 0.683,
+          "text": "CS102 Object-Oriented Programming is a 3-credit-hour core course at academic level 1. It is offered in the Spring semester only. Registration requirements - prerequisites: CS101."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS103": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS103 is offered only in Fall, not in Spring"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS103.md \u00a7 Overview",
+          "score": 0.657,
+          "text": "CS103 Digital Logic Design is a 3-credit-hour core course at academic level 1. It is offered in the Fall semester only. There are no prerequisites or other registration requirements."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        }
+      ]
+    },
+    "CS201": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS201 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS102"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS201.md \u00a7 Overview",
+          "score": 0.591,
+          "text": "CS201 Data Structures is a 4-credit-hour core course at academic level 2. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS102."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS202": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS202 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS103"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS202.md \u00a7 Overview",
+          "score": 0.647,
+          "text": "CS202 Computer Organization and Architecture is a 4-credit-hour core course at academic level 2. It is offered in the Spring semester only. Registration requirements - prerequisites: CS103."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS203": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS203 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS102"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS203.md \u00a7 Overview",
+          "score": 0.561,
+          "text": "CS203 Database Systems is a 3-credit-hour core course at academic level 2. It is offered in the Spring semester only. Registration requirements - prerequisites: CS102."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS204": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS204 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS102"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS204.md \u00a7 Overview",
+          "score": 0.629,
+          "text": "CS204 Web Application Development is a 3-credit-hour elective course at academic level 2. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS102."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS205": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS205 is offered only in Fall, not in Spring"
+        },
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS205 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS102"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS205.md \u00a7 Overview",
+          "score": 0.615,
+          "text": "CS205 Software Engineering is a 3-credit-hour core course at academic level 2. It is offered in the Fall semester only. Registration requirements - prerequisites: CS102."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS206": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS206 is offered only in Fall, not in Spring"
+        },
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS206 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS201"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS206.md \u00a7 Overview",
+          "score": 0.609,
+          "text": "CS206 Computer Graphics is a 3-credit-hour elective course at academic level 2. It is offered in the Fall semester only. Registration requirements - prerequisites: CS201."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS301": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS301 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS201, MATH102"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS301.md \u00a7 Overview",
+          "score": 0.587,
+          "text": "CS301 Design and Analysis of Algorithms is a 3-credit-hour core course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS201, MATH102."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS302": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS302 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS201, CS202"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS302.md \u00a7 Overview",
+          "score": 0.589,
+          "text": "CS302 Operating Systems is a 3-credit-hour core course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS201, CS202."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS303": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS303 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS202"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS303.md \u00a7 Overview",
+          "score": 0.521,
+          "text": "CS303 Computer Networks is a 3-credit-hour core course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS202."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS303L": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS303L is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "COREQUISITE_UNAVAILABLE",
+          "message": "corequisite CS303 cannot be registered (CS303 is a level 3 course; student is level 1; missing prerequisite(s): CS202)"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS303L.md \u00a7 Overview",
+          "score": 0.578,
+          "text": "CS303L Computer Networks Laboratory is a 1-credit-hour elective course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - corequisite: CS303."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Corequisites",
+          "score": 0.384,
+          "text": "A corequisite must be passed before, or registered in the same semester as, the course that requires it. If the corequisite course is not passed, the student must register for both courses together, and both must be individually eligible."
+        }
+      ]
+    },
+    "CS304": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS304 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS201, MATH201, MATH202"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS304.md \u00a7 Overview",
+          "score": 0.544,
+          "text": "CS304 Machine Learning is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS201, MATH201, MATH202."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS305": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS305 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS202"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS305.md \u00a7 Overview",
+          "score": 0.576,
+          "text": "CS305 Cybersecurity Fundamentals is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS202."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS306": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS306 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS204"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS306.md \u00a7 Overview",
+          "score": 0.624,
+          "text": "CS306 Mobile Application Development is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS204."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS307": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS307 is a level 3 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS201, MATH201"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS307.md \u00a7 Overview",
+          "score": 0.593,
+          "text": "CS307 Artificial Intelligence is a 3-credit-hour elective course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS201, MATH201."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS401": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS401 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS205, CS301"
+        },
+        {
+          "rule": "MIN_PASSED_CREDITS",
+          "message": "requires 60 passed credit hours; student has 0"
+        },
+        {
+          "rule": "MIN_GPA",
+          "message": "requires GPA >= 2.0; student has no GPA yet"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS401.md \u00a7 Overview",
+          "score": 0.609,
+          "text": "CS401 Capstone Project I is a 4-credit-hour core course at academic level 4. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS205, CS301; at least 60 passed credit hours; cumulative GPA of at least 2.0."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Minimum passed credit hours",
+          "score": 0.525,
+          "text": "Senior courses may require a minimum number of passed credit hours, stated in the course overview. The Capstone Project requires 60 passed credit hours. Professional Ethics and Law in Computing requires 30 passed credit hours."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Additional requirements",
+          "score": 0.387,
+          "text": "Some courses require a minimum number of passed credit hours or a minimum cumulative GPA. These requirements are stated in the course overview and must be satisfied at the time of registration."
+        }
+      ]
+    },
+    "CS402": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS402 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS304"
+        },
+        {
+          "rule": "MIN_GPA",
+          "message": "requires GPA >= 2.5; student has no GPA yet"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS402.md \u00a7 Overview",
+          "score": 0.582,
+          "text": "CS402 Deep Learning is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS304; cumulative GPA of at least 2.5."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Additional requirements",
+          "score": 0.387,
+          "text": "Some courses require a minimum number of passed credit hours or a minimum cumulative GPA. These requirements are stated in the course overview and must be satisfied at the time of registration."
+        }
+      ]
+    },
+    "CS403": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS403 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS302, CS303"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS403.md \u00a7 Overview",
+          "score": 0.576,
+          "text": "CS403 Distributed Systems is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS302, CS303."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS404": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS404 is offered only in Fall, not in Spring"
+        },
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS404 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS303"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS404.md \u00a7 Overview",
+          "score": 0.597,
+          "text": "CS404 Cloud Computing is a 3-credit-hour elective course at academic level 4. It is offered in the Fall semester only. Registration requirements - prerequisites: CS303."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS405": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS405 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS305"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS405.md \u00a7 Overview",
+          "score": 0.569,
+          "text": "CS405 Advanced Cybersecurity is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS305."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS406": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS406 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS304"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS406.md \u00a7 Overview",
+          "score": 0.666,
+          "text": "CS406 Natural Language Processing is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS304."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS407": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "CS407 is a level 4 course; student is level 1"
+        },
+        {
+          "rule": "MIN_PASSED_CREDITS",
+          "message": "requires 30 passed credit hours; student has 0"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS407.md \u00a7 Overview",
+          "score": 0.7,
+          "text": "CS407 Professional Ethics and Law in Computing is a 3-credit-hour core course at academic level 4. It is offered in every semester (Fall and Spring). Registration requirements - at least 30 passed credit hours."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Minimum passed credit hours",
+          "score": 0.525,
+          "text": "Senior courses may require a minimum number of passed credit hours, stated in the course overview. The Capstone Project requires 60 passed credit hours. Professional Ethics and Law in Computing requires 30 passed credit hours."
+        }
+      ]
+    },
+    "ENG101": {
+      "verdict": "RECOMMENDED",
+      "score": 0.6,
+      "violations": [],
+      "reasons": [
+        "No prerequisites required.",
+        "Offered in Spring; level 1 is within student level 1.",
+        "Core degree requirement."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/ENG101.md \u00a7 Overview",
+          "score": 0.715,
+          "text": "ENG101 Technical Writing and Communication is a 3-credit-hour core course at academic level 1. It is offered in every semester (Fall and Spring). There are no prerequisites or other registration requirements."
+        }
+      ]
+    },
+    "HUM101": {
+      "verdict": "RECOMMENDED",
+      "score": 0.15,
+      "violations": [],
+      "reasons": [
+        "No prerequisites required.",
+        "Offered in Spring; level 1 is within student level 1."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/HUM101.md \u00a7 Overview",
+          "score": 0.687,
+          "text": "HUM101 Critical Thinking and Society is a 3-credit-hour general education course at academic level 1. It is offered in every semester (Fall and Spring). There are no prerequisites or other registration requirements."
+        }
+      ]
+    },
+    "MATH101": {
+      "verdict": "RECOMMENDED",
+      "score": 0.721,
+      "violations": [],
+      "reasons": [
+        "No prerequisites required.",
+        "Offered in Spring; level 1 is within student level 1.",
+        "Core degree requirement."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/MATH101.md \u00a7 Overview",
+          "score": 0.553,
+          "text": "MATH101 Calculus I is a 3-credit-hour core course at academic level 1. It is offered in every semester (Fall and Spring). There are no prerequisites or other registration requirements."
+        },
+        {
+          "source": "kb/courses/MATH101.md \u00a7 Description",
+          "score": 0.051,
+          "text": "Covers limits, continuity, derivatives and basic integration of single-variable functions, with applications to optimisation and rates of change."
+        }
+      ]
+    },
+    "MATH102": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): MATH101"
+        }
+      ],
+      "reasons": [
+        "Take MATH101 first (eligible now) to work towards MATH102."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/MATH102.md \u00a7 Overview",
+          "score": 0.616,
+          "text": "MATH102 Discrete Mathematics is a 3-credit-hour core course at academic level 1. It is offered in the Spring semester only. Registration requirements - prerequisites: MATH101."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "MATH201": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "MATH201 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): MATH101"
+        }
+      ],
+      "reasons": [
+        "Take MATH101 first (eligible now) to work towards MATH201."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/MATH201.md \u00a7 Overview",
+          "score": 0.637,
+          "text": "MATH201 Probability and Statistics is a 3-credit-hour core course at academic level 2. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: MATH101."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "MATH202": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "LEVEL_RESTRICTION",
+          "message": "MATH202 is a level 2 course; student is level 1"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): MATH101"
+        }
+      ],
+      "reasons": [
+        "Take MATH101 first (eligible now) to work towards MATH202."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/MATH202.md \u00a7 Overview",
+          "score": 0.629,
+          "text": "MATH202 Linear Algebra is a 3-credit-hour core course at academic level 2. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: MATH101."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Academic level restriction",
+          "score": 0.465,
+          "text": "Courses are numbered by academic level from 1 to 4. A student may register only for courses at or below the academic level recorded for the student by the registrar. A level 1 student may not register for level 2, 3 or 4 courses, and a level 2 student may not register for level 3 or 4 courses."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    }
+  }
+}

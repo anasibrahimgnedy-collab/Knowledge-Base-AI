@@ -1,0 +1,32 @@
+{
+  "name": "Karim Samir",
+  "level": 4,
+  "term": "Spring",
+  "passed_courses": [
+    "CS101",
+    "MATH101",
+    "ENG101",
+    "CS103",
+    "CS102",
+    "MATH102",
+    "CS201",
+    "CS205",
+    "CS301"
+  ],
+  "gpa": 1.8,
+  "skills": [
+    "java"
+  ],
+  "interests": [
+    "software engineering",
+    "project management"
+  ],
+  "goals": "finish the degree and start the capstone",
+  "preferred_credits": 18,
+  "requested_courses": [
+    "CS401",
+    "CS407",
+    "CS101"
+  ],
+  "description": "EDGE CASES: probation GPA (limit 12), only 29 passed credits (capstone needs 60, ethics needs 30), GPA below capstone minimum, and a request to repeat a passed course."
+}

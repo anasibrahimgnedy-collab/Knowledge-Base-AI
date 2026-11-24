@@ -1,0 +1,595 @@
+{
+  "student": "Karim Samir",
+  "label": "balanced",
+  "max_credits": 12,
+  "target_credits": 12,
+  "total_credits": 12,
+  "selected": [
+    "CS203",
+    "MATH201",
+    "MATH202",
+    "HUM101"
+  ],
+  "warnings": [
+    "Preferred load of 18 credit hours exceeds the maximum of 12 allowed for this student (GPA 1.80 < 2.0 (probation limit)); the plan is capped at 12."
+  ],
+  "decisions": {
+    "CS101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS102": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS102 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS103": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS103 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS201": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS201 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS202": {
+      "verdict": "ELIGIBLE_NOT_SELECTED",
+      "score": 0.45,
+      "violations": [],
+      "reasons": [
+        "Eligible, but adding it (4 credit hours) would exceed the planned load of 12."
+      ],
+      "evidence": []
+    },
+    "CS203": {
+      "verdict": "RECOMMENDED",
+      "score": 0.45,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: CS102 passed.",
+        "Offered in Spring; level 2 is within student level 4.",
+        "Core degree requirement."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS203.md \u00a7 Overview",
+          "score": 0.561,
+          "text": "CS203 Database Systems is a 3-credit-hour core course at academic level 2. It is offered in the Spring semester only. Registration requirements - prerequisites: CS102."
+        }
+      ]
+    },
+    "CS204": {
+      "verdict": "ELIGIBLE_NOT_SELECTED",
+      "score": 0.0,
+      "violations": [],
+      "reasons": [
+        "Eligible, but adding it (3 credit hours) would exceed the planned load of 12."
+      ],
+      "evidence": []
+    },
+    "CS205": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS205 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS206": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS206 is offered only in Fall, not in Spring"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS206.md \u00a7 Overview",
+          "score": 0.609,
+          "text": "CS206 Computer Graphics is a 3-credit-hour elective course at academic level 2. It is offered in the Fall semester only. Registration requirements - prerequisites: CS201."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        }
+      ]
+    },
+    "CS301": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "CS301 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "CS302": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS202"
+        }
+      ],
+      "reasons": [
+        "Take CS202 first (eligible now) to work towards CS302."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS302.md \u00a7 Overview",
+          "score": 0.589,
+          "text": "CS302 Operating Systems is a 3-credit-hour core course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS201, CS202."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS303": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS202"
+        }
+      ],
+      "reasons": [
+        "Take CS202 first (eligible now) to work towards CS303."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS303.md \u00a7 Overview",
+          "score": 0.521,
+          "text": "CS303 Computer Networks is a 3-credit-hour core course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS202."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS303L": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "COREQUISITE_UNAVAILABLE",
+          "message": "corequisite CS303 cannot be registered (missing prerequisite(s): CS202)"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS303L.md \u00a7 Overview",
+          "score": 0.578,
+          "text": "CS303L Computer Networks Laboratory is a 1-credit-hour elective course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - corequisite: CS303."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Corequisites",
+          "score": 0.384,
+          "text": "A corequisite must be passed before, or registered in the same semester as, the course that requires it. If the corequisite course is not passed, the student must register for both courses together, and both must be individually eligible."
+        }
+      ]
+    },
+    "CS304": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): MATH201, MATH202"
+        }
+      ],
+      "reasons": [
+        "Take MATH201, MATH202 first (eligible now) to work towards CS304."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS304.md \u00a7 Overview",
+          "score": 0.544,
+          "text": "CS304 Machine Learning is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS201, MATH201, MATH202."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS305": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS202"
+        }
+      ],
+      "reasons": [
+        "Take CS202 first (eligible now) to work towards CS305."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS305.md \u00a7 Overview",
+          "score": 0.576,
+          "text": "CS305 Cybersecurity Fundamentals is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS202."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS306": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS204"
+        }
+      ],
+      "reasons": [
+        "Take CS204 first (eligible now) to work towards CS306."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS306.md \u00a7 Overview",
+          "score": 0.624,
+          "text": "CS306 Mobile Application Development is a 3-credit-hour elective course at academic level 3. It is offered in the Spring semester only. Registration requirements - prerequisites: CS204."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS307": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): MATH201"
+        }
+      ],
+      "reasons": [
+        "Take MATH201 first (eligible now) to work towards CS307."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/CS307.md \u00a7 Overview",
+          "score": 0.593,
+          "text": "CS307 Artificial Intelligence is a 3-credit-hour elective course at academic level 3. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS201, MATH201."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS401": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "MIN_PASSED_CREDITS",
+          "message": "requires 60 passed credit hours; student has 29"
+        },
+        {
+          "rule": "MIN_GPA",
+          "message": "requires GPA >= 2.0; student GPA is 1.80"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS401.md \u00a7 Overview",
+          "score": 0.609,
+          "text": "CS401 Capstone Project I is a 4-credit-hour core course at academic level 4. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: CS205, CS301; at least 60 passed credit hours; cumulative GPA of at least 2.0."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Minimum passed credit hours",
+          "score": 0.525,
+          "text": "Senior courses may require a minimum number of passed credit hours, stated in the course overview. The Capstone Project requires 60 passed credit hours. Professional Ethics and Law in Computing requires 30 passed credit hours."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Additional requirements",
+          "score": 0.387,
+          "text": "Some courses require a minimum number of passed credit hours or a minimum cumulative GPA. These requirements are stated in the course overview and must be satisfied at the time of registration."
+        }
+      ]
+    },
+    "CS402": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS304"
+        },
+        {
+          "rule": "MIN_GPA",
+          "message": "requires GPA >= 2.5; student GPA is 1.80"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS402.md \u00a7 Overview",
+          "score": 0.582,
+          "text": "CS402 Deep Learning is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS304; cumulative GPA of at least 2.5."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Additional requirements",
+          "score": 0.387,
+          "text": "Some courses require a minimum number of passed credit hours or a minimum cumulative GPA. These requirements are stated in the course overview and must be satisfied at the time of registration."
+        }
+      ]
+    },
+    "CS403": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS302, CS303"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS403.md \u00a7 Overview",
+          "score": 0.576,
+          "text": "CS403 Distributed Systems is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS302, CS303."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS404": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "NOT_OFFERED_THIS_TERM",
+          "message": "CS404 is offered only in Fall, not in Spring"
+        },
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS303"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS404.md \u00a7 Overview",
+          "score": 0.597,
+          "text": "CS404 Cloud Computing is a 3-credit-hour elective course at academic level 4. It is offered in the Fall semester only. Registration requirements - prerequisites: CS303."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Semester availability",
+          "score": 0.579,
+          "text": "Each course is offered in the Fall semester, the Spring semester, or both. A course can only be registered in a semester in which it is offered. Course overviews state the semesters in which the course is offered. A course offered only in Fall cannot be registered in the Spring semester."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS405": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS305"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS405.md \u00a7 Overview",
+          "score": 0.569,
+          "text": "CS405 Advanced Cybersecurity is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS305."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS406": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "PREREQUISITE_UNMET",
+          "message": "missing prerequisite(s): CS304"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS406.md \u00a7 Overview",
+          "score": 0.666,
+          "text": "CS406 Natural Language Processing is a 3-credit-hour elective course at academic level 4. It is offered in the Spring semester only. Registration requirements - prerequisites: CS304."
+        },
+        {
+          "source": "kb/policies/prerequisite_policy.md \u00a7 Prerequisites",
+          "score": 0.523,
+          "text": "A student may register for a course only if every prerequisite listed for that course has been passed. Prerequisites are cumulative: all listed prerequisites are required, not just one. A course that is currently in progress or was failed does not satisfy a prerequisite."
+        }
+      ]
+    },
+    "CS407": {
+      "verdict": "REJECTED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "MIN_PASSED_CREDITS",
+          "message": "requires 30 passed credit hours; student has 29"
+        }
+      ],
+      "reasons": [],
+      "evidence": [
+        {
+          "source": "kb/courses/CS407.md \u00a7 Overview",
+          "score": 0.7,
+          "text": "CS407 Professional Ethics and Law in Computing is a 3-credit-hour core course at academic level 4. It is offered in every semester (Fall and Spring). Registration requirements - at least 30 passed credit hours."
+        },
+        {
+          "source": "kb/policies/level_and_availability_policy.md \u00a7 Minimum passed credit hours",
+          "score": 0.525,
+          "text": "Senior courses may require a minimum number of passed credit hours, stated in the course overview. The Capstone Project requires 60 passed credit hours. Professional Ethics and Law in Computing requires 30 passed credit hours."
+        }
+      ]
+    },
+    "ENG101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "ENG101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "HUM101": {
+      "verdict": "RECOMMENDED",
+      "score": 0.0,
+      "violations": [],
+      "reasons": [
+        "No prerequisites required.",
+        "Offered in Spring; level 1 is within student level 4."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/HUM101.md \u00a7 Overview",
+          "score": 0.687,
+          "text": "HUM101 Critical Thinking and Society is a 3-credit-hour general education course at academic level 1. It is offered in every semester (Fall and Spring). There are no prerequisites or other registration requirements."
+        }
+      ]
+    },
+    "MATH101": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "MATH101 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "MATH102": {
+      "verdict": "ALREADY_PASSED",
+      "score": 0.0,
+      "violations": [
+        {
+          "rule": "ALREADY_PASSED",
+          "message": "MATH102 has already been passed"
+        }
+      ],
+      "reasons": [],
+      "evidence": []
+    },
+    "MATH201": {
+      "verdict": "RECOMMENDED",
+      "score": 0.45,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: MATH101 passed.",
+        "Offered in Spring; level 2 is within student level 4.",
+        "Core degree requirement."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/MATH201.md \u00a7 Overview",
+          "score": 0.637,
+          "text": "MATH201 Probability and Statistics is a 3-credit-hour core course at academic level 2. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: MATH101."
+        }
+      ]
+    },
+    "MATH202": {
+      "verdict": "RECOMMENDED",
+      "score": 0.45,
+      "violations": [],
+      "reasons": [
+        "Prerequisites satisfied: MATH101 passed.",
+        "Offered in Spring; level 2 is within student level 4.",
+        "Core degree requirement."
+      ],
+      "evidence": [
+        {
+          "source": "kb/courses/MATH202.md \u00a7 Overview",
+          "score": 0.629,
+          "text": "MATH202 Linear Algebra is a 3-credit-hour core course at academic level 2. It is offered in every semester (Fall and Spring). Registration requirements - prerequisites: MATH101."
+        }
+      ]
+    }
+  }
+}

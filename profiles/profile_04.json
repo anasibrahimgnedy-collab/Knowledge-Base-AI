@@ -1,0 +1,34 @@
+{
+  "name": "Youssef Adel",
+  "level": 3,
+  "term": "Spring",
+  "passed_courses": [
+    "CS101",
+    "MATH101",
+    "ENG101",
+    "HUM101",
+    "CS103",
+    "CS102",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "CS205",
+    "CS203"
+  ],
+  "gpa": 3.0,
+  "skills": [
+    "python",
+    "sql"
+  ],
+  "interests": [
+    "operating systems",
+    "machine learning"
+  ],
+  "goals": "work on systems software",
+  "preferred_credits": 18,
+  "requested_courses": [
+    "CS302",
+    "CS304"
+  ],
+  "description": "UNMET PREREQUISITES: transfer student who skipped CS202 and MATH202 but asks for Operating Systems and Machine Learning."
+}

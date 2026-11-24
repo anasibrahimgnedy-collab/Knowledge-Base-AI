@@ -1,0 +1,45 @@
+{
+  "name": "Nour Fathy",
+  "level": 4,
+  "term": "Spring",
+  "passed_courses": [
+    "CS101",
+    "MATH101",
+    "ENG101",
+    "HUM101",
+    "CS103",
+    "CS102",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "MATH202",
+    "CS205",
+    "CS204",
+    "CS202",
+    "CS203",
+    "CS301",
+    "CS303",
+    "CS303L",
+    "CS302",
+    "CS305",
+    "CS307"
+  ],
+  "gpa": 3.7,
+  "skills": [
+    "python",
+    "networking",
+    "cryptography"
+  ],
+  "interests": [
+    "cybersecurity",
+    "distributed systems",
+    "cloud computing"
+  ],
+  "goals": "security engineer in a cloud company",
+  "preferred_credits": 21,
+  "requested_courses": [
+    "CS404",
+    "CS405"
+  ],
+  "description": "High-GPA senior eligible for the capstone: requests a Fall-only cloud course (rejected) and an advanced security course."
+}

@@ -1,0 +1,14 @@
+# Core (required to run the notebook and tests)
+numpy>=1.24
+scikit-learn>=1.3
+pandas>=2.0
+pytest>=8.0
+# Notebook execution
+jupyter>=1.0
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.29
+# Optional: pretrained LLM for the chatbot (set ANTHROPIC_API_KEY); offline mode works without it
+# anthropic>=0.40
+# Optional: neural sentence embeddings instead of TF-IDF
+# sentence-transformers>=2.7

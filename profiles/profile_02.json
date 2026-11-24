@@ -1,0 +1,24 @@
+{
+  "name": "Omar Khaled",
+  "level": 1,
+  "term": "Spring",
+  "passed_courses": [
+    "CS101",
+    "MATH101",
+    "CS103"
+  ],
+  "gpa": 3.2,
+  "skills": [
+    "python"
+  ],
+  "interests": [
+    "object oriented programming",
+    "web development"
+  ],
+  "goals": "build web applications",
+  "preferred_credits": 15,
+  "requested_courses": [
+    "CS204"
+  ],
+  "description": "Level-1 student who asks for a level-2 web course: level restriction must reject it and the remaining level-1 courses fill the plan."
+}

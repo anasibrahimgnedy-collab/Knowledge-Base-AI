@@ -1,0 +1,43 @@
+{
+  "name": "Sara Nabil",
+  "level": 3,
+  "term": "Spring",
+  "passed_courses": [
+    "CS101",
+    "MATH101",
+    "ENG101",
+    "HUM101",
+    "CS103",
+    "CS102",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "MATH202",
+    "CS205",
+    "CS202",
+    "CS203"
+  ],
+  "gpa": 2.4,
+  "skills": [
+    "python",
+    "java"
+  ],
+  "interests": [
+    "networking",
+    "security",
+    "artificial intelligence"
+  ],
+  "goals": "graduate on time with broad skills",
+  "preferred_credits": 24,
+  "requested_courses": [
+    "CS301",
+    "CS302",
+    "CS303",
+    "CS303L",
+    "CS304",
+    "CS305",
+    "CS307",
+    "CS204"
+  ],
+  "description": "EXCEEDS CREDIT LIMIT: GPA 2.4 allows 18 credit hours but the student wants 24 and requests 22 hours of courses."
+}
